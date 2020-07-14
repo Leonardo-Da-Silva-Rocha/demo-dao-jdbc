@@ -12,6 +12,8 @@ public class program {
 		
 		VendedorDao vendedorDao = DaoFactory.createVendedorDao();
 		
+		
+		System.out.println("=== TESTE 1: vendedor findbyid ===");
 		Vendedor vend = vendedorDao.findById(3);
 		
 		System.out.println(vend);
